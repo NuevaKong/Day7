@@ -1,0 +1,42 @@
+footer{
+    background: #19110b;
+    font-size: 14px;
+    color: white;
+    height: 271.8px;
+}
+
+.footer-first{
+    border-bottom: 1px solid #392d23;
+    padding: 48px 0px;
+}
+
+.footer-second{
+    text-decoration: none;
+    color: white;
+    padding: 48px 0px;
+}
+
+.footer-second a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-center{
+    margin: 40px 0px;
+    text-align: center;
+}
+
+
+h2{
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.main-card{
+    padding: 48px 12px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
