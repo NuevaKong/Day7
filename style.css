@@ -2,7 +2,20 @@ footer{
     background: #19110b;
     font-size: 14px;
     color: white;
-    height: 271.8px;
+}
+
+nav{
+    padding: 0px 32px;
+}
+
+.btn-outline-success {
+    color: chocolate;
+    border-color: chocolate;
+}
+
+.btn-outline-success:hover{
+    background-color: chocolate;
+    border-color: chocolate;
 }
 
 .footer-first{
@@ -10,10 +23,32 @@ footer{
     padding: 48px 0px;
 }
 
+@media screen and (max-width:48rem){
+    .footer-first{
+        text-align: center;
+    }
+}
+
 .footer-second{
     text-decoration: none;
     color: white;
-    padding: 48px 0px;
+    border-bottom: 1px solid #392d23;
+}
+
+@media screen and (max-width:48rem) {
+    .footer-second{
+        padding: 0px 2em;
+    }
+
+    footer .col{
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:48rem){
+    .footer-second-text{
+        display: none;
+    }
 }
 
 .footer-second a{
@@ -21,22 +56,24 @@ footer{
     color: white;
 }
 
-.main-center{
-    margin: 40px 0px;
-    text-align: center;
-}
-
-
 h2{
     font-weight: 500;
     line-height: 1.2;
 }
 
-.main-card{
-    padding: 48px 12px;
-}
-
 .card:hover{
     transform: scale(1.05);
     transition: 0.5s ease-in-out;
+}
+
+.footer-third{
+    font-size: 1.125rem;
+    font-weight: 300;
+    display: none;
+}
+
+@media screen and (max-width:48rem){
+    .footer-third{
+        display: block;
+    }
 }
